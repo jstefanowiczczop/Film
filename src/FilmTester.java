@@ -7,15 +7,16 @@ public class FilmTester {
         Film pierwszy = new Film();
         pierwszy.tytul = "Przeminęło  z hossą";
         pierwszy.rodzaj = "triler";
-        pierwszy.ocena = 2;
+        pierwszy.ocena = -2;
         Film drugi =  new Film ();
         drugi.tytul = "bla bla bla";
         drugi.rodzaj = "sensacja";
-                drugi.ocena = 1;
+                drugi.ocena = 5;
+        drugi.odtworz ();
         Film trzeci = new Film ();
         trzeci.tytul = "gdzie sa klucze";
                 trzeci.rodzaj = "poradnik";
-        trzeci.ocena = 5;
+        trzeci.ocena = 127;
 
 
 
